@@ -19,4 +19,6 @@ This project realized the preprocessing, EDA and evaluates different classifier 
 - The algorithms used are Xgboost, decission tree, random forest, adaboost and k-neighbors regressor
 - This project is hosted in the linked [Github repository](https://github.com/NicolasZFr/mobile-price-prediction)
 
-<img src='./images/confussionmatrix.png' style="width:80%">
+<p align="center">
+    <img src='./images/confussionmatrix.png' style="width:500px">
+</p>
