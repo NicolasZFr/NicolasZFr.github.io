@@ -4,7 +4,7 @@ I did this project to make a model based on LSTM networks to make the model hand
 - Can be seen in this [Github repository](https://github.com/NicolasZFr/nvidia_prediction_lstm)  
 
 ## Arquitecture diagram
-<img src='https://github.com/NicolasZFr/nicolas-portfolio/blob/main/images/lstm_diagram.png'>  
+<img src='https://raw.githubusercontent.com/NicolasZFr/nicolas-portfolio/main/images/lstm_diagram.png'>  
 
 # [Project 2: Automobile business analysis and supervised machine learning algorithms (price prediction)](https://github.com/NicolasZFr/auto-reg-prediction)
 This project realized the preprocessing, EDA and evaluates different regressor machine learning models to find the best one to predict the price of the cars
@@ -20,5 +20,5 @@ This project realized the preprocessing, EDA and evaluates different classifier 
 - This project is hosted in the linked [Github repository](https://github.com/NicolasZFr/mobile-price-prediction)
 
 <p align="center">
-    <img src='https://github.com/NicolasZFr/mobile-price-prediction/blob/main/images/confussionmatrix.png' style="width:500px">
+    <img src='https://raw.githubusercontent.com/NicolasZFr/mobile-price-prediction/main/images/confussionmatrix.png' style="width:500px">
 </p>
