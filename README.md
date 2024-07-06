@@ -4,7 +4,7 @@ I did this project to make a model based on LSTM networks to make the model hand
 - Can be seen in this [Github repository](https://github.com/NicolasZFr/nvidia_prediction_lstm)  
 
 ## Arquitecture diagram
-<img src='https://file.notion.so/f/f/345cf846-20d3-4604-9e34-b4bdca594463/806d79a3-3095-4419-b4f7-8b70ea062daa/Untitled.png?id=ad03c71a-96e6-4d54-88f2-038e9ba5d65a&table=block&spaceId=345cf846-20d3-4604-9e34-b4bdca594463&expirationTimestamp=1720058400000&signature=Gx9dUzgvuvPCbT2fp4z0z5K9Svqlx0aIDm3Gg7p1jxY&downloadName=Untitled.png'>  
+<img src='https://github.com/NicolasZFr/nicolas-portfolio/blob/main/images/lstm_diagram.png'>  
 
 # [Project 2: Automobile business analysis and supervised machine learning algorithms (price prediction)](https://github.com/NicolasZFr/auto-reg-prediction)
 This project realized the preprocessing, EDA and evaluates different regressor machine learning models to find the best one to predict the price of the cars
@@ -20,5 +20,5 @@ This project realized the preprocessing, EDA and evaluates different classifier 
 - This project is hosted in the linked [Github repository](https://github.com/NicolasZFr/mobile-price-prediction)
 
 <p align="center">
-    <img src='./images/confussionmatrix.png' style="width:500px">
+    <img src='https://github.com/NicolasZFr/mobile-price-prediction/blob/main/images/confussionmatrix.png' style="width:500px">
 </p>
