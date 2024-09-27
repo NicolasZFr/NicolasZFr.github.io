@@ -1,0 +1,180 @@
+/* Configuración global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px;
+}
+
+/* Encabezado */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0 60px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 60%;
+    max-width: 200px;
+}
+
+/* Contenedor general */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Secciones */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Tarjetas de proyectos */
+#about p, #projects p{
+    text-align: justify;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 96%;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.project-card .see-more {
+    display: flex;
+    width: 120px;
+    color: #fff;
+    background-color: #333;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#lstm-d {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#heat-m {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.tableauPlaceholder{
+    position: relative;
+}
+
+
+/* Lista de habilidades */
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch; /* Espacio entre los ítems */
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li {
+    flex: 1 1 48%; /* Ocupa el 48% del ancho y permite crecer/reducirse */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* Experiencia */
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.experience-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 96%;
+}
+
+/* Sección de contacto */
+#contact ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

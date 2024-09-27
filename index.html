@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Análisis de Datos">
+    <title>Portafolio de Análisis de Datos</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="profile" src="https://avatars.githubusercontent.com/u/102821750?v=4">
+            <h1>Nicolás Zamudio Franco</h1>
+            <p>Data Analyst | Data Science | Business Management</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About me</h2>
+            <p>I am an administrator with a passion for data science with a desire for helping people to make their work easier and improve their decision making. I have knowledge in SQL, Python for analytics and data science (Machine learning and deep learning), and visualization (Pandas, Power BI, Tableau, and Google). Additionally, I am in the process of improving these and more tools for data science. <br>
+            Thank you for taking the time to learn more about me. I look forward to connecting and collaborating on exciting data-driven projects in the future!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Hotel sales analysis with Python and Tableau</h3>
+                    <p>
+                        This project integrates two key tools: Python for data cleaning, normalization, and transformation, and Tableau for data visualization and presentation. The dataset, sourced from Kaggle under the profile of <a href="https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand" target="_blank">Jesse Mostipak</a> is first imported into Python for the EDA process and then exported for further use in Tableau.
+                    </p>
+                    <div class='tableauPlaceholder' id='viz1727462542059'><noscript><a href='#'><img alt='Revenue report ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Revenuereport_17273939714540&#47;Revenuereport&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Revenuereport_17273939714540&#47;Revenuereport' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Revenuereport_17273939714540&#47;Revenuereport&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1727462542059');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1677px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    <a class="see-more" href="https://github.com/NicolasZFr/tableau-python_hotel" target="_blank">See project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Predictions on the stock market with LSTM networks (neural networks) in Python</h3>
+                    <p>
+                        Project based on LSTM networks to make the model handle long-term dependencies in sequential data in order to predict the next prices.<br> The neural network uses the Yahoo Finance pip library and the Nvidia shares.
+                    </p>
+                    <!-- https://raw.githubusercontent.com/NicolasZFr/nicolas-portfolio/main/images/lstm_diagram.png -->
+                    <img id="lstm-d" src='https://raw.githubusercontent.com/NicolasZFr/nicolas-portfolio/main/images/lstm_diagram.png'>
+                    <a class="see-more" href="https://github.com/NicolasZFr/nvidia_prediction_lstm" target="_blank">See project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Automobile business analysis and supervised machine learning algorithms price prediction</h3>
+                    <p>
+                        This project realized the preprocessing, EDA and evaluates different regressor machine learning models to find the best one to predict the price of the cars.
+                        <br>This model uses the cars datasets of the <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data" target="_blank">University of California Irvine</a>.
+                        <br>The algorithms used are Xgboost, polinomyal regression, SVM, Voting regressor, decission tree regressor and k-neighbors regressor.
+                    </p>
+                    <a class="see-more" href="https://github.com/NicolasZFr/auto-reg-prediction" target="_blank">See project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Mobile phones business analysis and supervised machine learning algorithms (price category prediction)</h3>
+                    <p>
+                        This project involves preprocessing, exploratory data analysis (EDA), and the evaluation of various machine learning classification models to determine the most effective one for predicting cellphone price ranges.
+                        <br>- Utilizing a <a href="https://www.kaggle.com/datasets/atefehmirnaseri/cell-phone-price" target="_blank">Kaggle</a> cellphone dataset, the model considers all available variables for prediction
+                        <br>- The algorithms implemented include XGBoost, Decision Tree, Random Forest, AdaBoost, and K-Neighbors Regressor
+                    </p>
+                    <img id="heat-m" src='https://raw.githubusercontent.com/NicolasZFr/mobile-price-prediction/main/images/confussionmatrix.png'>
+                    <a class="see-more" href="https://github.com/NicolasZFr/mobile-price-prediction" target="_blank">See project</a>
+                </div>
+                <!-- Agrega más proyectos según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Teamwork &amp; assertiva communication</li>
+                <li>Adaptability &amp; eagerness to learn</li>
+                <li>Data visualization&#58; Tableau&#44; Power BI &#44; Looker Studio</li>
+                <li>Deep learning&#58; Neural networks</li>
+                <li>Languages&#58; Python&#44; SQL&#44; HTML &amp; CSS</li>
+                <li>Microsoft Office</li>
+                <li>Git &amp; Github</li>
+                <li>Anaconda &amp; Jupyter Notebook</li>
+                <li>WSL &amp; VS Code</li>
+                <li>Machine learning&#58; supervised&#44; unsupervised models &amp; semi-supervised</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Bodega del cemento</h3>
+                    <p>External auditor | October 2023 - July 2024</p>
+                    <p>
+                        &#8226; Reduced the margin of discrepancies between recorded and actual inventory by 80% by identifying errors in the process and reporting on areas for improvement <br>
+                        &#8226; Developed proposals in collaboration with the tax auditor based on identified errors, followed by periodic 
+                        audits to evaluate compliance
+                    </p>
+                </div>
+                <div class="experience-card">
+                    <h3>Sheraton Bogot&aacute; hotel</h3>
+                    <p>Marketing Assistant | July 2021 - June 2022</p>
+                    <p>
+                        &#8226; Achieved 100% booking capacity for Christmas dinner reservations through pre-event advertising <br>
+                        &#8226; Managed Marriott's customer databases alongside the Revenue Manager for subsequent follow-up with account 
+                        managers <br>
+                        &#8226; Developed a mass email campaign in Mailchimp in collaboration with the team to recover 80% of the corporate 
+                        client base from the three years prior to the pandemic
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>I am available to collaborate on new projects! You can contact me via&#58;</p>
+            <ul>
+                <li>Email: <span style="user-select:all;">nicolaszmfr1999@gmail.com</span></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/nicolaszfr/" target="_blank">nicolaszfr</a></li>
+                <li>GitHub: <a href="https://github.com/NicolasZFr" target="_blank">NicolasZFr</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nicolás Zamudio Franco. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

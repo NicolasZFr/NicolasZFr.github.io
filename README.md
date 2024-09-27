@@ -10,7 +10,7 @@ I did this project to make a model based on LSTM networks to make the model hand
 This project realized the preprocessing, EDA and evaluates different regressor machine learning models to find the best one to predict the price of the cars
 - This model uses the cars datasets of the [University of California Irvine](https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data)
 - The algorithms used are Xgboost, polinomyal regression, SVM, Voting regressor, decission tree regressor and k-neighbors regressor
-- This project is hosted in the linked [Github repository](https://github.com/NicolasZFr/auto-reg-predictio)  
+- This project is hosted in the linked [Github repository](https://github.com/NicolasZFr/auto-reg-prediction)  
 
 # [Project 3: Mobile phones business analysis and supervised machine learning algorithms (price category prediction)](https://github.com/NicolasZFr/mobile-price-prediction)
 This project realized the preprocessing, EDA and evaluates different classifier machine learning models to find the best one to predict the price range for each cellphone.
