@@ -99,12 +99,15 @@ h2 {
 }
 
 #lstm-d {
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    max-width: 523px;
+    display: flex;
+    margin: 0 auto;
 }
 
 #heat-m {
-    width: 50%;
+    width: 100%;
+    max-width: 374px;
     display: flex;
     margin: 0 auto;
 }
