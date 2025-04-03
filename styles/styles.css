@@ -116,6 +116,13 @@ h2 {
     position: relative;
 }
 
+#hackaton_app {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+
 
 /* Lista de habilidades */
 #skills ul {
